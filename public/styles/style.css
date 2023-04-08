@@ -15,98 +15,171 @@ a {
     font-family: var(--font-family_prime);
 }
 
-.header__munu,.corusel__wrapper,.corusel__wrapper,
-.header__wrapper, .project_title__container,
-.project__wrapper,.material,.footer__wrapper,.about__information,
+.header__munu,
+.corusel__wrapper,
+.corusel__wrapper,
+.header__wrapper,
+.project_title__container,
+.project__wrapper,
+.material,
+.footer__wrapper,
+.about__information,
 .about__container {
     width: var(--main-min-wiz);
 }
 
-.header,.header__list, .corusel, .help-baner,
-.project_title__wrapper,.main__projects,.project__button,
-.main__materials,.footer,.main__about {
+.header,
+.header__list,
+.corusel,
+.help-baner,
+.project_title__wrapper,
+.main__projects,
+.project__button,
+.main__materials,
+.footer,
+.main__about {
     display: flex;
     justify-content: center;
 }
 
 
-.header__wrapper, .project_title__container,
-.project__wrapper,.material,.footer__wrapper,.about__information,.header__nav   {
+.header__wrapper,
+.project_title__container,
+.project__wrapper,
+.material,
+.footer__wrapper,
+.about__information,
+.header__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.help-baner,.button__help, .button__ico{
+.help-baner,
+.button__help,
+.button__ico {
     background: var(--button-bg);
 }
 
-.button__help, .button__ico {
+.button__help,
+.button__ico {
     border: none;
     padding: var(--padding-xls);
-    color: var(--color_x);
 }
 
 
 
-.logotype,.baner__image {
+.logotype,
+.baner__image {
     width: var(--width_img_s);
 }
 
-.header_button__container,.link__conteiner,.help-baner__wrapper,.baner__wrapper {
+.header_button__container,
+.link__conteiner,
+.help-baner__wrapper,
+.baner__wrapper {
     display: flex;
 }
 
-.categoty_tittle, .link__conteiner {
+.categoty_tittle,
+.link__conteiner {
     padding: var(--padding-s);
 }
 
-.project__category,.button__help     {
+.project__category,
+.button__help {
     font-family: var(--font-family_buttons);
 }
 
-.categoty_tittle,.help-baner__discription,.project_title__button,.button__help  {
+.categoty_tittle,
+.help-baner__discription,
+.project_title__button,
+.button__help {
     font-size: var(--font-size_button);
 }
 
-.corusel__image, .material__image, .baner_column, .about__image,.project__image {
+.corusel__image,
+.material__image,
+.baner_column,
+.about__image,
+.project__image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.corussel__tittle,.container__title,.column__tittle {
+.corussel__tittle,
+.container__title,
+.column__tittle {
     font-size: var(--font-size_tittle);
 }
 
 
-.header__wrapper,.help-baner__tittle,.corussel__tittle, .help-baner__discription, 
-.project__image, .project__tittle,.materials__discription,.footer__wrapper,.about__tittle,.about__button {
+.header__wrapper,
+.help-baner__tittle,
+.corussel__tittle,
+.help-baner__discription,
+.project__image,
+.project__tittle,
+.materials__discription,
+.footer__wrapper,
+.about__tittle,
+.about__button {
     text-align: center;
 }
 
-.corusel,.corusel__discription,.help-baner {
+.corusel,
+.corusel__discription,
+.help-baner {
     padding-top: var(--padding-xl);
 }
 
-.corussel__informatio,.project_image__tittle,.project__tittle {
+.corussel__informatio,
+.project_image__tittle,
+.project__tittle {
     font-size: var(--font-size_x);
 }
 
-.header__munu,.slyder__buttom {
+.header__munu,
+.slyder__buttom {
     background: var(--menu_bg);
 }
 
-.corusel__image, .about__image {
+.corusel__image,
+.about__image {
     height: 100%;
 }
 
-.main,.main__projects, .baner_column, .help-baner {
+.main,
+.main__projects,
+.baner_column,
+.help-baner {
     width: 100%;
 }
 
-.about__tittle,.materials__discription,.help-baner {
+.about__tittle,
+.materials__discription,
+.help-baner {
     padding-bottom: var(--padding-m);
+}
+
+.text_column__discription,
+.baner_column,
+.main__materials,
+.about__container,
+.corusel__discription,
+.project__discription
+ {
+    text-align: justify;
+}
+
+.column__tittle,
+.help-baner__tittle,
+.button__help,
+.button__ico,
+.corusel__discription
+ {
+    color: var(--color_x);
 }
 
 .button__help {
@@ -149,23 +222,18 @@ a {
     background: none;
     border: none;
     border-radius: 50%;
-    margin: var(--margin-xls); 
+    margin: var(--margin-xls);
 }
-
 
 .corussel__information {
     padding: var(--padding-l);
     background: var(--second-bg);
-    
 }
-
 .corusel__discription {
-    color: var(--color_x);
     font-family: var(--font-family_third);
-    text-align: justify;
 }
 
-.help-baner__wrapper {  
+.help-baner__wrapper {
     padding: var(--padding-m);
     justify-content: space-evenly;
 }
@@ -174,12 +242,11 @@ a {
     font-size: var(--font-size_xs);
 
     padding-bottom: var(--padding-s);
-    color:var(--color_x);
 }
 
 .help-baner__discription {
 
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
 .container__title {
@@ -194,7 +261,7 @@ a {
     background: var(--button_bg2);
     border: none;
     border-radius: 2rem;
-    color:var(--color_y);
+    color: var(--color_y);
 }
 
 .main__projects {
@@ -238,22 +305,16 @@ a {
 
 .project__discription {
     font-size: var(--font_size_s);
-    text-align: justify;
 }
 
 
-.materials__discription{
+.materials__discription {
     padding-top: var(--padding-xxl);
     font-size: var(--font-size_xs);
 
 }
 
-.main__materials {
-    text-align: justify;
-
-}
-
-.material__column_1{
+.material__column_1 {
     padding: var(--padding-xls);
     font-size: var(--font_size_s);
 }
@@ -283,15 +344,14 @@ a {
     padding: var(--padding-xls);
 }
 
-.text_column__category{
+.text_column__category {
     background: var(--bg_dop);
 }
-.text_column__discription {
-    text-align: justify;
-}
+
+
 
 .footer {
-    background:var(--footer_bg);
+    background: var(--footer_bg);
 }
 
 .social_networc {
@@ -306,22 +366,16 @@ a {
 }
 
 .baner_column {
-    text-align: justify;
     min-height: var(--bammer_w);
     background: url("../images/dron.jpg");
     padding: var(--padding-s);
 }
-
-.column__tittle {
-    color: var(--color_x);
-}
-
 .column__discription {
     font-size: var(--font-size_xs);
     color: var(--color_y);
 }
 
-.main__about{
+.main__about {
     padding-bottom: var(--padding-xl);
 }
 
@@ -329,7 +383,6 @@ a {
     padding: 1rem;
     font-family: var(--font-family_third);
     font-size: var(--padding-s);
-    text-align: justify;
     align-items: center;
 }
 

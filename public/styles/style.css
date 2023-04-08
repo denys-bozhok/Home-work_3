@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 a {
@@ -11,46 +12,105 @@ a {
 
 #app {
     background: var(--prime-bg);
+    font-family: var(--font-family_prime);
 }
 
-.header {
+.header__munu,.corusel__wrapper,.corusel__wrapper,
+.header__wrapper, .project_title__container,
+.project__wrapper,.material,.footer__wrapper,.about__information,
+.about__container {
+    width: var(--main-min-wiz);
+}
+
+.header,.header__list, .corusel, .help-baner,
+.project_title__wrapper,.main__projects,.project__button,
+.main__materials,.footer,.main__about {
     display: flex;
     justify-content: center;
 }
 
-.header__wrapper{
-    min-width: var(--main-min-wiz);
+
+.header__wrapper, .project_title__container,
+.project__wrapper,.material,.footer__wrapper,.about__information,.header__nav   {
     display: flex;
     justify-content: space-between;
-    text-align: center;
     align-items: center;
 }
 
-.logotype {
-    width: var(--width_img_s);
+.help-baner,.button__help, .button__ico{
+    background: var(--button-bg);
 }
-
-.header__nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header_button__container {
-    display: flex;
-}
-
 
 .button__help, .button__ico {
     border: none;
-    background: var(--button-bg);
     padding: var(--padding-xls);
     color: var(--color_x);
 }
 
+
+
+.logotype,.baner__image {
+    width: var(--width_img_s);
+}
+
+.header_button__container,.link__conteiner,.help-baner__wrapper,.baner__wrapper {
+    display: flex;
+}
+
+.categoty_tittle, .link__conteiner {
+    padding: var(--padding-s);
+}
+
+.project__category,.button__help     {
+    font-family: var(--font-family_buttons);
+}
+
+.categoty_tittle,.help-baner__discription,.project_title__button,.button__help  {
+    font-size: var(--font-size_button);
+}
+
+.corusel__image, .material__image, .baner_column, .about__image,.project__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.corussel__tittle,.container__title,.column__tittle {
+    font-size: var(--font-size_tittle);
+}
+
+
+.header__wrapper,.help-baner__tittle,.corussel__tittle, .help-baner__discription, 
+.project__image, .project__tittle,.materials__discription,.footer__wrapper,.about__tittle,.about__button {
+    text-align: center;
+}
+
+.corusel,.corusel__discription,.help-baner {
+    padding-top: var(--padding-xl);
+}
+
+.corussel__informatio,.project_image__tittle,.project__tittle {
+    font-size: var(--font-size_x);
+}
+
+.header__munu,.slyder__buttom {
+    background: var(--menu_bg);
+}
+
+.corusel__image, .about__image {
+    height: 100%;
+}
+
+.main,.main__projects, .baner_column, .help-baner {
+    width: 100%;
+}
+
+.about__tittle,.materials__discription,.help-baner {
+    padding-bottom: var(--padding-m);
+}
+
 .button__help {
     border-radius: 0 .5rem .5rem 0;
-    font-size: var(--font-size_button);
-    font-family: var(--font-family_buttons);
 }
 
 .button__ico {
@@ -61,49 +121,22 @@ a {
     width: 1.5rem;
 }
 
-.header__list {    
-    display: flex;
-    justify-content: center;
-}
-
-.header__munu {
-    min-width: var(--main-min-wiz);
-    background: var(--menu_bg);
-}
-
-.categoty_tittle, .link__conteiner {
-    padding: var(--padding-s);
-    font-family: var(--font-family_prime);
-    
-}
-.categoty_tittle {
-    font-size: var(--font-size_button);
-}
 .link__conteiner {
-    display: flex;
     justify-content: space-around;
 }
 
 .corusel {
-    padding-top: var(--padding-xl);
-    display: flex;
-    justify-content: center;
     background: var(--corusel-bg);
 }
 
 .corusel__wrapper {
-    width: var(--main-min-wiz);
     height: var(--bammer_w);
     max-height: max-content;
     margin-bottom: var(--padding-xl);
 }
 
 .corusel__image {
-    height: 100%;
     background-image: url("../images/dron.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 
@@ -115,87 +148,43 @@ a {
     left: 49%;
     background: none;
     border: none;
-    background: var(--menu_bg);
     border-radius: 50%;
     margin: var(--margin-xls); 
 }
 
 
-.corussel__tittle {
-    font-size: var(--font-size_tittle);
-}
-
 .corussel__information {
     padding: var(--padding-l);
-    font-size: var(--font-size_x);
     background: var(--second-bg);
     
 }
 
 .corusel__discription {
-    padding-top: var(--padding-xl);
     color: var(--color_x);
     font-family: var(--font-family_third);
     text-align: justify;
 }
-.corussel__tittle {
-    text-align: center;
-}
 
-.help-baner {
-    width: 100%;
-    background: var(--button-bg);
-    display: flex;
-    justify-content: center;
-}
 .help-baner__wrapper {  
     padding: var(--padding-m);
-    display: flex;
     justify-content: space-evenly;
-}
-
-.baner__image {
-    width: var(--width_img_s);
 }
 
 .help-baner__tittle {
     font-size: var(--font-size_xs);
-    font-family: var(--font-family_prime);
+
     padding-bottom: var(--padding-s);
     color:var(--color_x);
-    text-align: center;
 }
 
 .help-baner__discription {
-    font-size: var(--font-size_button);
-    font-family: var(--font-family_prime);
+
     color:whitesmoke;
-    text-align: center;
-}
-
-.main {
-    width: 100%;
-    font-family: var(--font-family_prime);
-}
-.project_title__wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.project_title__container {
-    width: var(--main-min-wiz);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: var(--padding-xl);
-    padding-bottom: var(--padding-m);
 }
 
 .container__title {
     align-items: center;
-    font-size: var(--font-size_tittle);
     color: var(--color_y);
-
 }
 
 
@@ -206,26 +195,13 @@ a {
     border: none;
     border-radius: 2rem;
     color:var(--color_y);
-    font-size: var(--font-size_button);
 }
 
-
-
-
 .main__projects {
-    width: 100%;
-    display: flex;
-    justify-content: center;
     border-bottom: 3px solid yellowgreen;
     padding-bottom: var(--margin-xl);
 }
 
-
-.project__wrapper {
-    width: var(--main-min-wiz);
-    display: flex;
-    justify-content: space-between;
-}
 
 .project {
     margin: var(--margin-s);
@@ -233,12 +209,8 @@ a {
 
 .project__image {
     background-image: url(../images/dron.jpg);
-    background-repeat: no-repeat;
     border-radius: 1rem;
-    background-size: cover;
-    background-position: center;
     height: var(--height_x);
-    text-align: center;
 }
 
 .project__category {
@@ -250,14 +222,12 @@ a {
     background: var(--bg_dop);
     height: 2rem;
     color: var(--button_bg2);
-    font-family: var(--font-family_buttons);
 }
 
 .project_image__tittle {
     padding-top: 30%;
     font-family: var(--font-family_buttons);
     color: var(--color_v);
-    font-size: var(--font-size_x);
 }
 
 .project__information {
@@ -266,41 +236,21 @@ a {
     padding-bottom: var(--padding-s);
 }
 
-.project__tittle {
-    text-align: center;
-    font-size: var(--font-size_x);
-}
-
 .project__discription {
     font-size: var(--font_size_s);
     text-align: justify;
 }
 
-.project__button {
-    display: flex;
-    justify-content: center;
-}
 
 .materials__discription{
     padding-top: var(--padding-xxl);
-    padding-bottom: var(--padding-m);
-    text-align: center;
     font-size: var(--font-size_xs);
 
 }
 
 .main__materials {
-    display: flex;
-    justify-content: center;
     text-align: justify;
 
-}
-
-.material {
-    
-    width: var(--main-min-wiz);
-    display: flex;
-    justify-content: space-between;
 }
 
 .material__column_1{
@@ -317,9 +267,6 @@ a {
 .material__image {
     background: url("../images/dron.jpg");
     height: var(--height_y);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .material__tittle {
@@ -344,18 +291,7 @@ a {
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
     background:var(--footer_bg);
-}
-
-
-.footer__wrapper{
-    width: var(--main-min-wiz);
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
 }
 
 .social_networc {
@@ -363,7 +299,6 @@ a {
 }
 
 .baner__wrapper {
-    display: flex;
     justify-content: space-between;
     background: var(--4th-bg);
     padding-top: var(--padding-xxl);
@@ -372,17 +307,12 @@ a {
 
 .baner_column {
     text-align: justify;
-    width: 100%;
     min-height: var(--bammer_w);
     background: url("../images/dron.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     padding: var(--padding-s);
 }
 
 .column__tittle {
-    font-size: var(--font-size_tittle);
     color: var(--color_x);
 }
 
@@ -392,43 +322,23 @@ a {
 }
 
 .main__about{
-    display: flex;
-    justify-content: center;
     padding-bottom: var(--padding-xl);
-}
-
-.about__information {
-    width: var(--main-min-wiz);
-    display: flex;
-    justify-content: space-between;
 }
 
 .about__container {
     padding: 1rem;
-    width: var(--main-min-wiz);
     font-family: var(--font-family_third);
     font-size: var(--padding-s);
     text-align: justify;
     align-items: center;
 }
 
-.about__tittle {
-    padding-bottom: var(--padding-m);
-    text-align: center;
-}
-
 
 .about__image {
-
     width: var(--bammer_w);
-    height: 100%;
     background: url("../icons/fav-icon.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .about__button {
-    text-align: center;
     padding: var(--font-size_xs);
 }

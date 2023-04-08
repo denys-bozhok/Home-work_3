@@ -297,18 +297,18 @@ a {
 
 }
 
-.materials__container {
+.material {
     width: 75%;
     display: flex;
     justify-content: space-between;
 }
 
-.materials__column_1{
+.material__column_1{
     padding: .5rem;
     font-size: 1.2rem;
 }
 
-.materials__column_2 {
+.material__column_2 {
     padding: .5rem;
     font-size: .6rem;
 }

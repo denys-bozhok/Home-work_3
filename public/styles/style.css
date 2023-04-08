@@ -9,20 +9,17 @@ a {
     color: inherit;
 }
 
-
 #app {
-    background: linear-gradient(white, whitesmoke, gray);
+    background: var(--prime-bg);
 }
 
 .header {
     display: flex;
-    min-width: 80%;
     justify-content: center;
 }
 
-
 .header__wrapper{
-    min-width: 80%;
+    min-width: var(--main-min-wiz);
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -30,7 +27,7 @@ a {
 }
 
 .logotype {
-    width: 7rem;
+    width: var(--width_img_s);
 }
 
 .header__nav {
@@ -45,14 +42,14 @@ a {
 
 .button__help, .button__ico {
     border: none;
-    background: skyblue;
-    padding: .5rem;
-    color: aliceblue;
+    background: var(--button-bg);
+    padding: var(--padding-xls);
+    color: var(--color_x);
 }
 
 .button__help {
     border-radius: 0 .5rem .5rem 0;
-    font-size: 1.5rem;
+    font-size: var(--font-size_button);
     font-family: var(--font-family_buttons);
 }
 
@@ -70,17 +67,17 @@ a {
 }
 
 .header__munu {
-    min-width: 75%;
-    background: whitesmoke;
+    min-width: var(--main-min-wiz);
+    background: var(--menu_bg);
 }
 
 .categoty_tittle, .link__conteiner {
-    padding: 1rem;
+    padding: var(--padding-s);
     font-family: var(--font-family_prime);
     
 }
 .categoty_tittle {
-    font-size: 1.5rem;
+    font-size: var(--font-size_button);
 }
 .link__conteiner {
     display: flex;
@@ -88,17 +85,17 @@ a {
 }
 
 .corusel {
-    padding-top: 5rem;
+    padding-top: var(--padding-xl);
     display: flex;
     justify-content: center;
-    background: linear-gradient( transparent, yellowgreen, white );
+    background: var(--corusel-bg);
 }
 
 .corusel__wrapper {
-    width: 80%;
-    height: 35rem;
+    width: var(--main-min-wiz);
+    height: var(--bammer_w);
     max-height: max-content;
-    margin-bottom: 5rem;
+    margin-bottom: var(--padding-xl);
 }
 
 .corusel__image {
@@ -107,7 +104,6 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
 }
 
 
@@ -119,56 +115,59 @@ a {
     left: 49%;
     background: none;
     border: none;
-    background: whitesmoke;
+    background: var(--menu_bg);
     border-radius: 50%;
-    margin: .5rem; 
+    margin: var(--margin-xls); 
 }
 
 
 .corussel__tittle {
-    font-size: 4rem;
-
+    font-size: var(--font-size_tittle);
 }
 
 .corussel__information {
-    padding: 4rem;
-    font-size: 2rem;
-    background: linear-gradient(gray, transparent, gray);
+    padding: var(--padding-l);
+    font-size: var(--font-size_x);
+    background: var(--second-bg);
+    
 }
 
-.corussel__discription {
-    color: aliceblue;
+.corusel__discription {
+    padding-top: var(--padding-xl);
+    color: var(--color_x);
     font-family: var(--font-family_third);
+    text-align: justify;
+}
+.corussel__tittle {
     text-align: center;
-    align-items: center;
 }
 
 .help-baner {
     width: 100%;
-    background: skyblue;
+    background: var(--button-bg);
     display: flex;
     justify-content: center;
 }
 .help-baner__wrapper {  
-    padding: 2rem;
+    padding: var(--padding-m);
     display: flex;
     justify-content: space-evenly;
 }
 
 .baner__image {
-    width: 7rem;
+    width: var(--width_img_s);
 }
 
 .help-baner__tittle {
-    font-size: 3rem;
+    font-size: var(--font-size_xs);
     font-family: var(--font-family_prime);
-    padding-bottom: 1rem;
-    color:whitesmoke;
+    padding-bottom: var(--padding-s);
+    color:var(--color_x);
     text-align: center;
 }
 
 .help-baner__discription {
-    font-size: 1.5rem;
+    font-size: var(--font-size_button);
     font-family: var(--font-family_prime);
     color:whitesmoke;
     text-align: center;
@@ -184,30 +183,30 @@ a {
 }
 
 .project_title__container {
-    min-width: 80%;
+    width: var(--main-min-wiz);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-m);
 }
 
 .container__title {
     align-items: center;
-    font-size: 4rem;
-    color: magenta;
+    font-size: var(--font-size_tittle);
+    color: var(--color_y);
 
 }
 
 
 .project_title__button {
     background: none;
-    padding: 1rem;
-    background: yellow;
+    padding: var(--margin-s);
+    background: var(--button_bg2);
     border: none;
     border-radius: 2rem;
-    color:magenta;
-    font-size: 1.5rem;
+    color:var(--color_y);
+    font-size: var(--font-size_button);
 }
 
 
@@ -218,18 +217,18 @@ a {
     display: flex;
     justify-content: center;
     border-bottom: 3px solid yellowgreen;
-    padding-bottom: 5rem;
+    padding-bottom: var(--margin-xl);
 }
 
 
 .project__wrapper {
-    width: 80%;
+    width: var(--main-min-wiz);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .project {
-    margin: 1rem;
+    margin: var(--margin-s);
 }
 
 .project__image {
@@ -238,7 +237,7 @@ a {
     border-radius: 1rem;
     background-size: cover;
     background-position: center;
-    min-height: 20rem;
+    height: var(--height_x);
     text-align: center;
 }
 
@@ -248,32 +247,32 @@ a {
     border-radius: 0 .3rem .3rem 0;
     padding: 0.2rem;
     width: max-content;
-    background: grey;
+    background: var(--bg_dop);
     height: 2rem;
-    color: yellow;
+    color: var(--button_bg2);
     font-family: var(--font-family_buttons);
 }
 
 .project_image__tittle {
-    padding-top: 10%;
+    padding-top: 30%;
     font-family: var(--font-family_buttons);
-    color: blue;
-    font-size: 2rem;
+    color: var(--color_v);
+    font-size: var(--font-size_x);
 }
 
 .project__information {
 
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: var(--padding-s);
+    padding-bottom: var(--padding-s);
 }
 
 .project__tittle {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: var(--font-size_x);
 }
 
 .project__discription {
-    font-size: 1.3rem;
+    font-size: var(--font_size_s);
     text-align: justify;
 }
 
@@ -283,10 +282,10 @@ a {
 }
 
 .materials__discription{
-    padding-top: 10rem;
-    padding-bottom: 3rem;
+    padding-top: var(--padding-xxl);
+    padding-bottom: var(--padding-m);
     text-align: center;
-    font-size: 3rem;
+    font-size: var(--font-size_xs);
 
 }
 
@@ -298,46 +297,47 @@ a {
 }
 
 .material {
-    width: 75%;
+    
+    width: var(--main-min-wiz);
     display: flex;
     justify-content: space-between;
 }
 
 .material__column_1{
-    padding: .5rem;
-    font-size: 1.2rem;
+    padding: var(--padding-xls);
+    font-size: var(--font_size_s);
 }
 
 .material__column_2 {
-    padding: .5rem;
-    font-size: .6rem;
+    padding: var(--padding-xls);
+    font-size: var(--font-size_button_xls);
 }
 
 
 .material__image {
     background: url("../images/dron.jpg");
-    height: 12rem;
+    height: var(--height_y);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .material__tittle {
-    padding-top: .5rem;
-    background: linear-gradient(gray,  whitesmoke,  transparent);
+    padding-top: var(--padding-xls);
+    background: var(--therd_bg);
 }
 
 .material__discription {
-    padding-top: .5rem;
-    margin-bottom: 3rem;
+    padding-top: var(--padding-xls);
+    margin-bottom: var(--margin-l);
 }
 
 .text_column {
-    padding: .5rem;
+    padding: var(--padding-xls);
 }
 
 .text_column__category{
-    background: gray;
+    background: var(--bg_dop);
 }
 .text_column__discription {
     text-align: justify;
@@ -346,12 +346,12 @@ a {
 .footer {
     display: flex;
     justify-content: center;
-    background:dimgray;
+    background:var(--footer_bg);
 }
 
 
 .footer__wrapper{
-    width: 80%;
+    width: var(--main-min-wiz);
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -365,62 +365,62 @@ a {
 .baner__wrapper {
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(transparent, darkmagenta, transparent) ;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    background: var(--4th-bg);
+    padding-top: var(--padding-xxl);
+    padding-bottom: var(--padding-xxl);
 }
 
 .baner_column {
     text-align: justify;
     width: 100%;
-    min-height: 40rem;
+    min-height: var(--bammer_w);
     background: url("../images/dron.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 1rem;
+    padding: var(--padding-s);
 }
 
 .column__tittle {
-    font-size: 5rem;
-    color: yellow;
+    font-size: var(--font-size_tittle);
+    color: var(--color_x);
 }
 
 .column__discription {
-    font-size: 3rem;
-    color: blue;
+    font-size: var(--font-size_xs);
+    color: var(--color_y);
 }
 
 .main__about{
     display: flex;
     justify-content: center;
-    padding-bottom: 5rem;
+    padding-bottom: var(--padding-xl);
 }
 
 .about__information {
-    width: 80%;
+    width: var(--main-min-wiz);
     display: flex;
     justify-content: space-between;
 }
 
 .about__container {
     padding: 1rem;
-    width: 80%;
+    width: var(--main-min-wiz);
     font-family: var(--font-family_third);
-    font-size: 1.5rem;
+    font-size: var(--padding-s);
     text-align: justify;
     align-items: center;
 }
 
 .about__tittle {
-    padding-bottom: 3rem;
+    padding-bottom: var(--padding-m);
     text-align: center;
 }
 
 
 .about__image {
 
-    width: 30rem;
+    width: var(--bammer_w);
     height: 100%;
     background: url("../icons/fav-icon.png");
     background-repeat: no-repeat;
@@ -430,5 +430,5 @@ a {
 
 .about__button {
     text-align: center;
-    padding: 3rem;
+    padding: var(--font-size_xs);
 }

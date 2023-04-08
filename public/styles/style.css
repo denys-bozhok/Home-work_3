@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#app {
+    background: linear-gradient(white, whitesmoke, gray);
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.header__wrapper{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.logotype {
+    width: 7rem;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_button__container {
+    display: flex;
+}
+
+
+.button__help, .button__ico {
+    border: none;
+    background: skyblue;
+    padding: .5rem;
+    color: aliceblue;
+}
+
+.button__help {
+    border-radius: 0 .5rem .5rem 0;
+    font-size: 1.5rem;
+    font-family: var(--font-family_buttons);
+}
+
+.button__ico {
+    border-radius: .5rem 0 0 .5rem;
+}
+
+.button__img {
+    width: 1.5rem;
+}
+
+.header__list {    
+    display: flex;
+    justify-content: center;
+}
+
+.header__munu {
+    width: 1024px;
+    background: whitesmoke;
+}
+
+.categoty_tittle, .link__conteiner {
+    padding: 1rem;
+    font-family: var(--font-family_prime);
+    
+}
+.categoty_tittle {
+    font-size: 1.5rem;
+}
+.link__conteiner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.corusel {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( transparent, yellowgreen, white );
+}
+
+.corusel__wrapper {
+    width: 1024px;
+}
+
+.corusel__image {
+    height: 30rem;
+    background-image: url("../images/dron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.slyder__buttom {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top: -3rem;
+    left: 49%;
+    background: none;
+    border: none;
+    background: whitesmoke;
+    border-radius: 50%;
+    margin: .5rem; 
+}
+
+
+.corussel__tittle {
+    font-size: 4rem;
+}
+
+.corussel__information {
+    padding: 4rem;
+    font-size: 2rem;
+    background: linear-gradient(gray, transparent, gray);
+}
+
+.corussel__discription {
+    color: aliceblue;
+    font-family: var(--font-family_third);
+    text-align: center;
+    align-items: center;
+}
+
+.help-baner {
+    width: 100%;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+}
+.help-baner__wrapper {  
+    padding: 2rem;
+    width: 1024px;  
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.baner__image {
+    width: 7rem;
+}
+
+.help-baner__tittle {
+    font-size: 3rem;
+    font-family: var(--font-family_prime);
+    padding-bottom: 1rem;
+    color:whitesmoke;
+    text-align: center;
+}
+
+.help-baner__discription {
+    font-size: 1.5rem;
+    font-family: var(--font-family_prime);
+    color:whitesmoke;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+}
+.project_title__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.project_title__container {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.container__title {
+    align-items: center;
+    font-size: 4rem;
+    color: magenta;
+    font-family: var(--font-family_prime);
+    
+}
+
+
+.project_title__button {
+    background: none;
+    padding: 1rem;
+    background: yellow;
+    border: none;
+    border-radius: 2rem;
+    font-family: var(--font-family_prime);
+    color:magenta;
+    font-size: 1.5rem;
+}
+
+
+
+
+.main__projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.project__wrapper {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    margin: 1rem;
+}
+
+.project__image {
+    background-image: url(../images/dron.jpg);
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    background-size: cover;
+    background-position: center;
+    min-height: 20rem;
+    text-align: center;
+}
+
+.project__category {
+    position: relative;
+    top: 2rem;
+    border-radius: 0 .3rem .3rem 0;
+    padding: 0.2rem;
+    width: max-content;
+    background: grey;
+    height: 2rem;
+    color: yellow;
+    font-family: var(--font-family_buttons);
+}
+
+.project_image__tittle {
+    padding-top: 10%;
+    font-family: var(--font-family_buttons);
+    color: blue;
+    font-size: 2rem;
+}
+
+.project__information {
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.project__tittle {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--font-family_prime);
+}
+
+.project__discription {
+    font-size: 1rem;
+    font-family: var(--font-family_prime);
+    text-align: justify;
+}
+
+.project__button {
+    display: flex;
+    justify-content: center;
+}

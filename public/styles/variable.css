@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../fonts/ubuntu/Ubuntu-R.ttf);
+  }
+
+@font-face {
+    font-family: "Neuropol";
+    src: url(../fonts/neuropol/neuropol\ x\ rg.otf);
+}
+
+@font-face {
+    font-family: "Nasalization";
+    src: url(../fonts/nasalization/nasalization-rg.otf);
+}
+
+:root {
+    --font-family_prime: Ubuntu;
+    --font-family_buttons: Neuropol;
+    --font-family_third: Nasalization;
+
+  }

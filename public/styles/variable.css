@@ -23,7 +23,7 @@
     --prime-bg: linear-gradient(white, whitesmoke, gray);
     --second-bg: linear-gradient(gray, transparent, gray);
     --therd_bg:linear-gradient(gray,  whitesmoke,  transparent);
-    --4th-bg: linear-gradient(transparent, rgba(100, 247, 71, 0.582), transparent);
+    --forth_bg: linear-gradient(transparent, rgba(100, 247, 71, 0.582), transparent);
 
     --corusel-bg: linear-gradient( transparent, yellowgreen, white );
     --menu_bg:whitesmoke;

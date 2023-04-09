@@ -180,7 +180,6 @@ a {
     position: relative;
 }
 
-
 .project__discription,
 .footer,
 .about__discription,
@@ -371,7 +370,7 @@ a {
 
 .baner__wrapper {
     justify-content: space-between;
-    background: var(--4th-bg);
+    background: var(--forth_bg);
     padding-bottom: var(--padding-xxl);
 }
 

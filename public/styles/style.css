@@ -70,7 +70,6 @@ a {
 .about__container,
 .project_title__container,
 .project__wrapper,
-.material,
 .footer__wrapper,
 .about__information,
 .header__nav {
@@ -216,14 +215,13 @@ a {
 }
 
 .text_column,
-.material__column_2,
 .material__column_1,
+.material__column_2,
 .button__help,
 .button__ico,
 .project_title__button {
     padding: var(--padding-xls);
 }
-
 
 .text_column__category,
 .project__category {

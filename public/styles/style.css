@@ -13,6 +13,7 @@ a {
 #app {
     background: var(--prime-bg);
     font-family: var(--font-family_prime);
+    overflow-x: hidden;
 }
 
 .header__munu,
@@ -69,7 +70,6 @@ a {
 .container__title,
 .about__container,
 .project_title__container,
-.project__wrapper,
 .footer__wrapper,
 .about__information,
 .header__nav {
@@ -86,8 +86,6 @@ a {
 .help-baner__wrapper,
 .baner__wrapper {
     display: flex;
-
-
 }
 
 .header__munu,
@@ -126,6 +124,12 @@ a {
 .corusel__wrapper,
 .baner_column {
     height: var(--bammer_w);
+}
+
+.corusel__image,
+.project__image,
+.baner_column {
+    overflow: hidden;
 }
 
 .corusel__discription,

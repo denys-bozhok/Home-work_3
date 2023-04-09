@@ -17,7 +17,6 @@ a {
 
 .header__munu,
 .corusel__wrapper,
-.corusel__wrapper,
 .header__wrapper,
 .project_title__container,
 .project__wrapper,
@@ -42,7 +41,6 @@ a {
     justify-content: center;
 }
 
-
 .header__wrapper,
 .project_title__container,
 .project__wrapper,
@@ -62,12 +60,11 @@ a {
 }
 
 .button__help,
-.button__ico {
+.button__ico,
+.project_title__button {
     border: none;
     padding: var(--padding-xls);
 }
-
-
 
 .logotype,
 .baner__image {
@@ -98,22 +95,11 @@ a {
     font-size: var(--font-size_button);
 }
 
-.corusel__image,
-.material__image,
-.baner_column,
-.about__image,
-.project__image {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 .corussel__tittle,
 .container__title,
 .column__tittle {
     font-size: var(--font-size_tittle);
 }
-
 
 .header__wrapper,
 .help-baner__tittle,
@@ -134,7 +120,7 @@ a {
     padding-top: var(--padding-xl);
 }
 
-.corussel__informatio,
+.corussel__information,
 .project_image__tittle,
 .project__tittle {
     font-size: var(--font-size_x);
@@ -168,18 +154,57 @@ a {
 .main__materials,
 .about__container,
 .corusel__discription,
-.project__discription
- {
+.project__discription {
     text-align: justify;
+}
+
+.container__title,
+.about__container {
+    align-items: center;
 }
 
 .column__tittle,
 .help-baner__tittle,
 .button__help,
 .button__ico,
-.corusel__discription
- {
+.corusel__discription,
+.help-baner__discription {
     color: var(--color_x);
+}
+
+.container__title,
+.column__discription,
+.project_title__button,
+.container__title,
+.about__container {
+    color: var(--color_y);
+}
+
+.project_title__button {
+    border-radius: .5rem;
+}
+
+.corusel__discription,
+.about__container {
+    font-family: var(--font-family_third);
+}
+
+.column__discription,
+.materials__discription,
+.help-baner__tittle,
+.about__tittle {
+    font-size: var(--font-size_xs);
+}
+
+.project__discription,
+.footer,
+.about__discription {
+    font-size: var(--font_size_s);
+}
+
+.project__category,
+.footer {
+    color: var(--button_bg2);
 }
 
 .button__help {
@@ -198,7 +223,8 @@ a {
     justify-content: space-around;
 }
 
-.corusel {
+.corusel,
+.project_title__button {
     background: var(--corusel-bg);
 }
 
@@ -212,6 +238,10 @@ a {
     background-image: url("../images/dron.jpg");
 }
 
+.corussel__information {
+    padding: var(--padding-l);
+    background: var(--second-bg);
+}
 
 .slyder__buttom {
     width: 1rem;
@@ -219,18 +249,9 @@ a {
     position: relative;
     top: -3rem;
     left: 49%;
-    background: none;
     border: none;
     border-radius: 50%;
     margin: var(--margin-xls);
-}
-
-.corussel__information {
-    padding: var(--padding-l);
-    background: var(--second-bg);
-}
-.corusel__discription {
-    font-family: var(--font-family_third);
 }
 
 .help-baner__wrapper {
@@ -239,29 +260,7 @@ a {
 }
 
 .help-baner__tittle {
-    font-size: var(--font-size_xs);
-
     padding-bottom: var(--padding-s);
-}
-
-.help-baner__discription {
-
-    color: whitesmoke;
-}
-
-.container__title {
-    align-items: center;
-    color: var(--color_y);
-}
-
-
-.project_title__button {
-    background: none;
-    padding: var(--margin-s);
-    background: var(--button_bg2);
-    border: none;
-    border-radius: 2rem;
-    color: var(--color_y);
 }
 
 .main__projects {
@@ -269,13 +268,12 @@ a {
     padding-bottom: var(--margin-xl);
 }
 
-
 .project {
-    margin: var(--margin-s);
+    width: 30%;
 }
 
 .project__image {
-    background-image: url(../images/dron.jpg);
+    background-image: url("../images/dron.jpg");
     border-radius: 1rem;
     height: var(--height_x);
 }
@@ -288,7 +286,6 @@ a {
     width: max-content;
     background: var(--bg_dop);
     height: 2rem;
-    color: var(--button_bg2);
 }
 
 .project_image__tittle {
@@ -298,20 +295,12 @@ a {
 }
 
 .project__information {
-
     padding-top: var(--padding-s);
     padding-bottom: var(--padding-s);
 }
 
-.project__discription {
-    font-size: var(--font_size_s);
-}
-
-
 .materials__discription {
     padding-top: var(--padding-xxl);
-    font-size: var(--font-size_xs);
-
 }
 
 .material__column_1 {
@@ -323,7 +312,6 @@ a {
     padding: var(--padding-xls);
     font-size: var(--font-size_button_xls);
 }
-
 
 .material__image {
     background: url("../images/dron.jpg");
@@ -348,8 +336,6 @@ a {
     background: var(--bg_dop);
 }
 
-
-
 .footer {
     background: var(--footer_bg);
 }
@@ -370,10 +356,6 @@ a {
     background: url("../images/dron.jpg");
     padding: var(--padding-s);
 }
-.column__discription {
-    font-size: var(--font-size_xs);
-    color: var(--color_y);
-}
 
 .main__about {
     padding-bottom: var(--padding-xl);
@@ -381,11 +363,8 @@ a {
 
 .about__container {
     padding: 1rem;
-    font-family: var(--font-family_third);
     font-size: var(--padding-s);
-    align-items: center;
 }
-
 
 .about__image {
     width: var(--bammer_w);
@@ -394,4 +373,14 @@ a {
 
 .about__button {
     padding: var(--font-size_xs);
+}
+
+.corusel__image,
+.material__image,
+.baner_column,
+.about__image,
+.project__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
